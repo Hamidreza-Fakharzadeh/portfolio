@@ -1,0 +1,9 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "backend and frontend used",
+  "main": "index.js",
+  "repository": "https://github.com/Hamidreza-Fakharzadeh/portfolio.git",
+  "author": "Hamidreza",
+  "license": "MIT"
+}
