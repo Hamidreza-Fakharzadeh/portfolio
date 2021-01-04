@@ -2,7 +2,8 @@ import React from 'react';
 
 function Soft() {
 	return (
-		<div id="id-soft" className="soft-wrapper row">
+		<div className="container soft-cont">
+			<div id="id-soft" className="soft-wrapper row">
 			<div className="soft-col1 xl-col-3 lg-col-3 md-col-2 sm-col-12 col-12">
 				<div className="soft1-grid">SOFT SKILLS</div>
 			</div>
@@ -61,6 +62,8 @@ function Soft() {
 				</div>
 			</div>
 		</div>
+		</div>
+		
 	);
 }
 export default Soft;

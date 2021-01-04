@@ -13,7 +13,7 @@ function App() {
 	return (
 		
 			<div className="container">
-				<div className="container-flex">
+				
 				<Header/>
 				<Main/>
 				<About/>
@@ -23,7 +23,7 @@ function App() {
 				<Experience/>
 				<Projects/>
 				<Contact/>
-				</div>
+				
 				
 			</div>
 		

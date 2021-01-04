@@ -4,7 +4,8 @@ import { animateScroll as scroll } from 'react-scroll';
 
 function Header() {
 	return (
-		<nav className="head-wrapper row">
+		<div className="container header-cont">
+			<nav className="head-wrapper row">
 			<div className="xl-col-2 lg-col-2 md-col-1 sm-col-2 col-6">
 				<div className="logo" onClick={() => scroll.scrollToTop()}>
 					HF
@@ -53,6 +54,8 @@ function Header() {
 
 			
 		</nav>
+		</div>
+		
 	);
 }
 

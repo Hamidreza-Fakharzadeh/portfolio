@@ -2,7 +2,8 @@ import React from 'react';
 
 function About() {
 	return (
-		<div className="about-wrapper row" id="about-id">
+		<div className="container about-cont">
+			<div className="about-wrapper row" id="about-id">
 			<div className="about-col1 xl-col-3 lg-col-3 md-col-2 sm-col-12 col-12">
 				<p className="para1-about">HERE I AM</p>
 			</div>
@@ -20,6 +21,8 @@ function About() {
 				</p>
 			</div>
 		</div>
+		</div>
+		
 	);
 }
 export default About;
