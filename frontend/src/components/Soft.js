@@ -5,7 +5,7 @@ function Soft() {
 		<div className="container soft-cont">
 			<div id="id-soft" className="soft-wrapper row">
 			<div className="soft-col1 xl-col-3 lg-col-3 md-col-2 sm-col-12 col-12">
-				<div className="soft1-grid">SOFT SKILLS</div>
+				SOFT SKILLS
 			</div>
 
 			<div className="soft-col2 xl-col-9 lg-col-9 md-col-10 sm-col-12 col-12">

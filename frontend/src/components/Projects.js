@@ -1,6 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Projects() {
+	let portfolioUrl = 'https://github.com/Hamidreza-Fakharzadeh/portfolio.git';
+	let portfolioWeb = "https://hamidreza-portfolio.netlify.app/"
+	let queueAndAUrl = 'https://github.com/ellietms/QueueAndA.git';
+	let qWeb = "https://cyf-queueanda.netlify.app/"
+	let tvShowUrl = "https://hamidreza-tv-show.netlify.app/";
+	let gitTvUrl = "https://github.com/Hamidreza-Fakharzadeh/tv-show-dom-project.git"
+	
 	return (
 		<div id="pro-id" className="container pro-cont">
 			<div>
@@ -9,35 +17,55 @@ function Projects() {
 				<div className="pro-wrapper row">
 					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
 						<div className="pro-card">
-							{/* <img src={web} alt="project" width="100%" /> */}
-							<div className="back-img">
-								<p>Portfolio</p>
+							<div className="back-img1">
+								<h2>Portfolio</h2>
 							</div>
-							<h1 className="pro-title">title</h1>
+							<div>
+								<a href={portfolioWeb}>web-portfolio</a>
+							</div>
+							<div>
+							<a href={portfolioUrl}>github-portfolio</a>
+							</div>
+							
 						</div>
 					</div>
 					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
 						<div className="pro-card">
-							<div className="back-img">
-								<p>Portfolio</p>
+							<div className="back-img2">
+								<h2>qAndA</h2>
 							</div>
-							<h1 className="pro-title">title</h1>
+							<div>
+								<a href={qWeb}>web-QandA</a>
+							</div>
+							<a href={queueAndAUrl}>github-QandA</a>
 						</div>
 					</div>
 					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
 						<div className="pro-card">
-							<div className="back-img">
-								<p>Portfolio</p>
+							<div className="back-img3">
+								<h2>Hackathon</h2>
 							</div>
-							<h1 className="pro-title">title</h1>
+							<Link to="/certify" className="pro-title">
+								prject-cerificate
+							</Link>
 						</div>
 					</div>
 					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
 						<div className="pro-card">
-							<div className="back-img">
-								<p>Portfolio</p>
+							<div className="back-img4">
+								<h2>tv-show</h2>
+								
 							</div>
-							<h1 className="pro-title">title</h1>
+							<div>
+							<a href={tvShowUrl}>web site</a>
+							</div>
+							<div>
+							<a href={gitTvUrl}>github</a>
+							</div>
+							
+							
+
+							
 						</div>
 					</div>
 				</div>
