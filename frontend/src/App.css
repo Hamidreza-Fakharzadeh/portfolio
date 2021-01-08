@@ -136,6 +136,7 @@ html {
 		flex-direction: column;
 		align-items: center;
 	}
+	
 }
 .skill-col1 {
 	font-size: 2.3rem;
@@ -201,6 +202,8 @@ svg {
 
 .exper-cont {
 	margin-top: 100px;
+	
+	
 }
 
 .cir1-date,
@@ -408,9 +411,9 @@ svg {
 	text-align: center;
 	word-wrap: break-word;
 }
-.contact-cont {
+/* .contact-cont {
 	height: 100vh;
-}
+} */
 .img-preview {
 	width: 100%;
   height: auto;
@@ -419,3 +422,27 @@ svg {
 .img-certify {
 	visibility: visible;
 }
+.contact-text {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+input[type=text], textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+    }
+    .form-cont {
+	margin: 0 auto;
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+	    
+    }
+    input[type=submit]:hover {
+	background-color: #45a049;
+    }

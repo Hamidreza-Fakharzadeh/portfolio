@@ -15,7 +15,7 @@ function Projects() {
 				<p className="pro-header">PROJECTS</p>
 
 				<div className="pro-wrapper row">
-					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
+					<div className="xl-col-3 lg-col-3 md-col-6 sm-col-6 col-10  ">
 						<div className="pro-card">
 							<div className="back-img1">
 								<h2>Portfolio</h2>
@@ -29,7 +29,7 @@ function Projects() {
 							
 						</div>
 					</div>
-					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
+					<div className="xl-col-3 lg-col-3 md-col-6 sm-col-6 col-10  ">
 						<div className="pro-card">
 							<div className="back-img2">
 								<h2>qAndA</h2>
@@ -40,7 +40,7 @@ function Projects() {
 							<a href={queueAndAUrl}>github-QandA</a>
 						</div>
 					</div>
-					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
+					<div className="xl-col-3 lg-col-3 md-col-6 sm-col-6 col-10  ">
 						<div className="pro-card">
 							<div className="back-img3">
 								<h2>Hackathon</h2>
@@ -50,7 +50,7 @@ function Projects() {
 							</Link>
 						</div>
 					</div>
-					<div className="xl-col-3 lg-col-3 md-col-3 sm-col-3 col-10  ">
+					<div className="xl-col-3 lg-col-3 md-col-6 sm-col-6 col-10  ">
 						<div className="pro-card">
 							<div className="back-img4">
 								<h2>tv-show</h2>
