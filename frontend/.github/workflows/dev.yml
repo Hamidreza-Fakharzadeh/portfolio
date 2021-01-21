@@ -1,4 +1,4 @@
- name: "portfolio-hf"
+ name: portfolio-hf
  
  on:
       push:
@@ -35,9 +35,9 @@
                
              - name: Invalidate cache
                run: |
-                aws cloudfront create-invalidation \
-                 --distribution-id **HERE** \ 
-                 --paths "/*"
+               aws cloudfront create-invalidation \
+               --distribution-id E2L6GUTZSPRN1T \ 
+               --paths /*
 
 
                
