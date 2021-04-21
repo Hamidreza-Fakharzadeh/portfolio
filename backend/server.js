@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors()); 
-const arr = [{test: "just a test for Aws ec2 instance"}];
+const arr = [];
 
                                               
 
