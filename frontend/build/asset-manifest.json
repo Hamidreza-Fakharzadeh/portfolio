@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33584e47.chunk.css",
+    "main.js": "/static/js/main.bdcabeef.chunk.js",
+    "main.js.map": "/static/js/main.bdcabeef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d747b813.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d747b813.js.map",
+    "static/js/2.c5251b10.chunk.js": "/static/js/2.c5251b10.chunk.js",
+    "static/js/2.c5251b10.chunk.js.map": "/static/js/2.c5251b10.chunk.js.map",
+    "static/js/3.0ef8ca8a.chunk.js": "/static/js/3.0ef8ca8a.chunk.js",
+    "static/js/3.0ef8ca8a.chunk.js.map": "/static/js/3.0ef8ca8a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.33584e47.chunk.css.map": "/static/css/main.33584e47.chunk.css.map",
+    "static/js/2.c5251b10.chunk.js.LICENSE.txt": "/static/js/2.c5251b10.chunk.js.LICENSE.txt",
+    "static/media/briefcase.5a82bbb1.svg": "/static/media/briefcase.5a82bbb1.svg",
+    "static/media/App.css": "/static/media/tv-show.2d9fd347.jpg",
+    "static/media/hat.843e0637.svg": "/static/media/hat.843e0637.svg",
+    "static/media/pic.cb6d64f0.png": "/static/media/pic.cb6d64f0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d747b813.js",
+    "static/js/2.c5251b10.chunk.js",
+    "static/css/main.33584e47.chunk.css",
+    "static/js/main.bdcabeef.chunk.js"
+  ]
+}
