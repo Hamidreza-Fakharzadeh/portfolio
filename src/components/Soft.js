@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Soft() {
+	//comment
 	return (
 		<div className="container soft-cont">
 			<div id="id-soft" className="soft-wrapper row">
@@ -63,7 +64,7 @@ function Soft() {
 			</div>
 		</div>
 		</div>
-		
+
 	);
 }
 export default Soft;
