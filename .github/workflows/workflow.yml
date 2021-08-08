@@ -1,19 +1,22 @@
-name: Upload Website
+name: s3-depl
 
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/s3-sync-action@master
+    - uses: actions/checkout@v2
+    - name: Configure aws credentials
+      uses: aws-actions/configure-aws-credentials@v1
       with:
-        args: --acl public-read --follow-symlinks --delete --exclude '.git*/*'
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+    - name: Build React App
+      run: yarn install && yarn run build
+    - name: Deploy app build to S3 bucket
+      run: aws s3 sync ./build/ s3://hamidreza-portfolio --delete
